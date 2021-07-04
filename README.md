@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Run the following commands in your shell to create migration capability to the database:
 ```bash
 flask db init
-flask db migrate
+flask db migrate -m "first migration"
 flask db upgrade
 ```
 
